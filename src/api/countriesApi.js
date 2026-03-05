@@ -12,7 +12,20 @@ async function getCountriesByRegion(region) {
   return response.data;
 }
 
+async function getCountriesStatusCode(region) {
+  const response = await axios.get(`${BASE_URL}/region/${region}`);
+  return response;
+}
+
+async function getCountriesStatusCode1(name) {
+  const response = await axios.get(`${BASE_URL}/name/${name}`);
+  return response;
+}
+
+
 module.exports = {
   getCountryByName,
-  getCountriesByRegion
+  getCountriesByRegion,
+  getCountriesStatusCode,
+  getCountriesStatusCode1
 };

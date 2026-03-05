@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,16 @@
   "type": "commonjs",
   "dependencies": {
     "axios": "^1.13.6"
-  }
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovidiurobu93/Countries-CLI-Practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ovidiurobu93/Countries-CLI-Practice/issues"
+  },
+  "homepage": "https://github.com/ovidiurobu93/Countries-CLI-Practice#readme"
 }
