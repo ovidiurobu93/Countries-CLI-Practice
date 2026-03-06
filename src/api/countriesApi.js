@@ -22,6 +22,8 @@ async function getCountriesStatusCode1(name) {
   return response;
 }
 
+async function getInfoForAllCountries()
+
 
 module.exports = {
   getCountryByName,
